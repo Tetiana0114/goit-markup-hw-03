@@ -79,14 +79,12 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--hover-and-focus-color);
+
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .studio {
   color: var(--black-color);
-}
-.header-logo {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 /*navigation*/
 .header-section,
@@ -99,10 +97,6 @@ img {
   margin-left: 93px;
   text-align: center;
 }
-.header-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -112,16 +106,15 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /*contacts*/
 .header-contact-list {
   display: flex;
   margin-left: auto;
-}
-.header-contact-item {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .header-contact-list .header-contact-item:not(:last-child) {
   margin-right: 50px;
@@ -133,6 +126,10 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .current,
 .header-link:hover,
@@ -237,6 +234,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
@@ -269,7 +267,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-bottom: 30px;
 }
 /* -------------Footer------------- */
 .footer {
@@ -277,12 +274,20 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-webstudio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--hover-and-focus-color);
+
+  display: inline-block;
+  margin-bottom: 20px;
+}
 .footer-studio {
   color: var(--text-white);
-}
-.footer-logo {
-  display: block;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 .footer-contacts {
   display: block;
@@ -357,8 +362,6 @@ img {
 }
 .project-list-item {
   background-color: var(--background-white);
-  box-sizing: border-box;
-  display: block;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -383,7 +386,6 @@ img {
 }
 .card-text {
   padding: 24px 20px;
-  border-right: 1px solid var(--card-border-color);
-  border-left: 1px solid var(--card-border-color);
-  border-bottom: 1px solid var(--card-border-color);
+  border: 1px solid var(--card-border-color);
+  border-top: 0;
 }
